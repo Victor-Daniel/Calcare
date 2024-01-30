@@ -1,0 +1,38 @@
+@media (min-width: 1280px){
+  footer.footer {
+      margin-top: 2rem;
+  }
+  footer.footer div.logo-footer{
+      text-align: center;
+  }
+
+    footer.footer div.logo-footer img{
+        width: 7vw;
+        height: 11vh;
+    }
+
+    footer.footer div.logo-footer p{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 0.8rem;
+    }
+}
+@media (max-width: 1280px){
+    footer.footer {
+        margin-top: 2rem;
+    }
+    footer.footer div.logo-footer{
+        text-align: center;
+    }
+
+    footer.footer div.logo-footer img{
+        width: 20vw;
+        height: 10vh;
+    }
+
+    footer.footer div.logo-footer p{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 0.8rem;
+    }
+}
+
+
