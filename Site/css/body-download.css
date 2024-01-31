@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@media (min-width: 1280px) {
+    .pedras-naturais{
+        text-align: center;
+        margin-right: 10rem;
+    }
+    .mobiliario{
+        text-align: center;
+    }
+    .pedras-naturais > img, .mobiliario > img{
+        width: 28vw;
+        height: 45vh;
+        margin-bottom: 1.2rem;
+    }
+
+    .body-download{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 65vh;
+    }
+    .pedras-naturais > button > a, .mobiliario > button > a{
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.2rem;
+        padding: 10px 25px;
+    }
+    .pedras-naturais > button, .mobiliario > button{
+        width: 10vw;
+        height: 5vh;
+        border-radius: 30px;
+        border: none;
+        background-color: #32373c;
+        cursor: pointer;
+    }
+    .download-titulo{
+        text-align: center;
+    }
+    .download-titulo > h2{
+        margin: 0;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 2rem;
+        color: #372612;
+    }
+}
+
+@media(max-width: 1280px){
+    .pedras-naturais{
+        text-align: center;
+        margin-bottom: 1.5rem;
+    }
+    .mobiliario{
+        text-align: center;
+    }
+    .pedras-naturais > img, .mobiliario > img{
+        width: 100vw;
+        height: 40vh;
+        margin-bottom: 1.2rem;
+    }
+
+    .pedras-naturais > button > a, .mobiliario > button > a{
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.2rem;
+        padding: 15px 25px;
+    }
+    .pedras-naturais > button, .mobiliario > button{
+        width: 60vw;
+        height: 8vh;
+        border-radius: 30px;
+        border: none;
+        background-color: #32373c;
+        cursor: pointer;
+    }
+    .download-titulo{
+        text-align: center;
+    }
+    .download-titulo > h2{
+        margin: 0;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 2rem;
+        color: #372612;
+        margin-top: 1.2rem;
+        margin-bottom: 1.2rem;
+    }
+}
