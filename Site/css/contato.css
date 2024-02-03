@@ -1,47 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 @media (min-width: 1280px) {
-    .contato > p > img{
-        width: 25px;
-        height: 25px;
+    .content > img{
+        width: 50vw;
+        height: 45vh;
+        border-radius: 20px;
+    }
+    .content{
+        text-align: center;
+        margin-top: 5rem;
+    }
+    .contato{
+        width: 100vw;
     }
 
     .contato > p{
         margin-left: 27rem !important;
         margin-right: 27rem !important;
-    }
 
-    .contato-calcare{
+    }
+    .contato > div{
         display: flex;
         align-items: center;
+        margin-left: 27rem !important;
+        margin-right: 27rem !important;
+
     }
-    .content > img{
-        width: 55vw;
-        height: 53vh;
-        border-radius: 10px;
+    .contato > div > img{
+        width: 25px;
+        height: 25px;
+        margin-right: 0.5rem;
     }
-    .content{
-        text-align: center;
-        margin-top: 5rem;
+    .contato > div > p >a, .contato > div > p {
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.3rem;
+        margin: 1rem 0;
     }
 }
 
 @media (max-width: 1280px) {
-    .contato > p > img{
-        width: 25px;
-        height: 25px;
-    }
-
-
-    .contato-calcare{
-        display: flex;
-        align-items: center;
+    .content{
+        text-align: center;
     }
     .content > img{
         width: 90vw;
         height: 30vh;
-        border-radius: 10px;
+        border-radius: 20px;
     }
-    .content{
-        text-align: center;
-        margin-top: 5rem;
+    .contato{
+        width: 100vw;
+    }
+    .contato > div{
+        display: flex;
+        align-items: center;
+        margin-left: 1.1rem !important;
+        margin-right: 1.1rem !important;
+    }
+    .contato > div > img{
+        width: 25px;
+        height: 25px;
+        margin-right: 0.5rem;
+    }
+    .contato > div > p >a, .contato > div > p {
+        font-family: 'Roboto', sans-serif;
+        font-size: 1rem;
+    }
+
+    .contato > div > p >a, .contato > div > p {
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.3rem;
+        margin: 0.5rem 0;
     }
 }

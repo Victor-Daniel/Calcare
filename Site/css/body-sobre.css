@@ -27,5 +27,18 @@
     }
 }
 @media(max-width: 1280px){
-    
+    .apresentacao > h2{
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 2rem;
+        color: #372612;
+    }
+
+    .apresentacao > p{
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.1rem;
+        text-align: justify;
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
 }
