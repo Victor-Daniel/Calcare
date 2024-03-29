@@ -1,2 +1,2 @@
 # Calcare
-Projeto Loja Virtual Calcare
+Projeto Loja Site Institucional.
