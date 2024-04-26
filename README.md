@@ -1,2 +1,2 @@
 # Calcare
-Projeto Loja Site Institucional.
+Projeto Loja Site Institucional de Exemplo.
